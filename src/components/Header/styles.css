@@ -1,0 +1,21 @@
+.image-header {
+    background-image: url('../../assets/pattern-bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 40vh ;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+@media screen  and (max-widht:375px) {
+    .image-header {
+        background-image: url('../../assets/pattern-bg-mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;         
+    }
+}

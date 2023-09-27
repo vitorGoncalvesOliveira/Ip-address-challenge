@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+    .banner-class {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      background-color: blue;
+    }
+    .line {
+        transform: rotate(90deg);
+    }
+}
+
+.line {
+  color: gray;
+  opacity: 0.5;
+
+}
